@@ -1,16 +1,11 @@
 package com.spring.restfulapi.entity;
 
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
 
-@Entity
+
 public class Loan {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+
     long loanId;
     String borrowerName;
     String dateBorrowed;
