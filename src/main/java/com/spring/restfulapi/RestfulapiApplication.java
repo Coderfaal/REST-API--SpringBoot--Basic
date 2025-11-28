@@ -14,9 +14,5 @@ public class RestfulapiApplication {
         SpringApplication.run(RestfulapiApplication.class, args);
 	}
 
-    @Bean
-    @Scope
-    RestTemplate createTemplate(){
-        return  new RestTemplate();
-    }
+
 }
