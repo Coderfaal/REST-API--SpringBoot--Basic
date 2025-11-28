@@ -53,7 +53,7 @@ public class LoanController {
         //return new ResponseEntity<>(HttpStatus.BAD_REQUEST);
         //return ResponseEntity.status(400).body(null);
 
-        if(false){
+        if(true){
             return  new ResponseEntity<>(service.getLoan(lId),HttpStatus.OK);}
         else {
             throw new IllegalArgumentException("Invalid loan id" + lId);
