@@ -8,7 +8,9 @@ import org.springframework.http.*;
 import org.springframework.web.bind.annotation.*;
 
 import java.rmi.MarshalException;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 @RestController
 @RequestMapping("loan/api/v1.0")
@@ -49,7 +51,14 @@ public class LoanController {
 
         //return service.getLoan(lId);
         //return new ResponseEntity<>(HttpStatus.BAD_REQUEST);
-        return ResponseEntity.status(400).body(null);
+        //return ResponseEntity.status(400).body(null);
+
+        if(false){
+            return  new ResponseEntity<>(service.getLoan(lId),HttpStatus.OK);}
+        else {
+            throw new IllegalArgumentException("Invalid loan id" + lId);
+
+        }
     }
 
     @GetMapping("/all")
@@ -76,4 +85,6 @@ public class LoanController {
         //return new ResponseEntity<>(HttpStatusCode.valueOf(204));
         return new ResponseEntity<>(HttpStatus.NO_CONTENT);
     }
+
+
 }
