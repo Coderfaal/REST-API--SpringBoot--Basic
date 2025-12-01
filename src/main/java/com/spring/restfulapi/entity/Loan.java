@@ -17,8 +17,9 @@ public class Loan {
     long loanId;
     String borrowerName;
     String dateBorrowed;
-    double amount;
 
+
+    double amount;
     int tenure;
     int balanceEMI;
     boolean loanStatus;
@@ -79,6 +80,7 @@ public class Loan {
     public void setLoanStatus(boolean loanStatus) {
         this.loanStatus = loanStatus;
     }
+
 
 
     @Override

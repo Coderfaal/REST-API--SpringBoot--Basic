@@ -1,7 +1,9 @@
 package com.spring.restfulapi.service;
 
+import com.spring.restfulapi.dto.loanDTO;
 import com.spring.restfulapi.entity.Loan;
 import com.spring.restfulapi.repository.LoanRepositiry;
+import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -15,8 +17,19 @@ public class LoanService {
     LoanRepositiry repositiry;
 
 
-    public Loan addLone(Loan loan) {
-        return repositiry.save(loan);
+    public Loan addLone(@Valid loanDTO loanDto) {
+        Loan lEntity= new Loan();
+
+        lEntity.setDateBorrowed(loanDto.getDateBorrowed());
+        lEntity.setBorrowerName(loanDto.getBorrowerName());
+
+        lEntity.setTenure(loanDto.getTenure());
+        lEntity.setAmount(loanDto.getAmount());
+
+        lEntity.setLoanStatus(loanDto.isLoanStatus());
+        lEntity.setBalanceEMI(loanDto.getBalanceEMI());
+
+        return repositiry.save(lEntity);
     }
 
 
@@ -30,29 +43,29 @@ public class LoanService {
         return repositiry.findAll();
     }
 
-    public Loan update(Loan l) {
-        return repositiry.save(l);
-    }
+//    public Loan update(@Valid loanDTO l) {
+//        return repositiry.save(l);
+//    }
 
-    public Loan update2(Loan l) {
-        //here temp is coming from daatabase and l is coming from postman
-        Optional<Loan> optional = repositiry.findById(l.getLoanId());
-        Loan temp = optional.get();
-        if (l.getBorrowerName() != null)
-            temp.setBorrowerName(l.getBorrowerName());
-
-        if (l.getDateBorrowed() != null)
-            temp.setDateBorrowed(l.getDateBorrowed());
-
-        // if (((Integer)(l.getTenure())) != null)
-        if (temp.getTenure() != l.getTenure())
-            temp.setTenure(l.getTenure());
-
-        if (temp.getAmount() < l.getAmount())
-            temp.setAmount(l.getAmount());
-
-        return repositiry.save(temp);
-    }
+//    public Loan update2(@Valid loanDTO l) {
+//        //here temp is coming from daatabase and l is coming from postman
+//        Optional<Loan> optional = repositiry.findById(l.getLoanId());
+//        Loan temp = optional.get();
+//        if (l.getBorrowerName() != null)
+//            temp.setBorrowerName(l.getBorrowerName());
+//
+//        if (l.getDateBorrowed() != null)
+//            temp.setDateBorrowed(l.getDateBorrowed());
+//
+//        // if (((Integer)(l.getTenure())) != null)
+//        if (temp.getTenure() != l.getTenure())
+//            temp.setTenure(l.getTenure());
+//
+//        if (temp.getAmount() < l.getAmount())
+//            temp.setAmount(l.getAmount());
+//
+//        return repositiry.save(temp);
+//    }
 
 
 

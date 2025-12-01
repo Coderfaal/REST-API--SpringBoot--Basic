@@ -2,7 +2,7 @@ package com.spring.restfulapi.errorHandler;
 
 import java.util.Date;
 
-public class MyErrorResponses {
+public class MyErrorResponse {
     private String message;
     private String errorCode;
     private Date time;
