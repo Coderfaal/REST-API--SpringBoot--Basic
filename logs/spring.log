@@ -1,21 +1,21 @@
 
-2025-12-02 12:20:35 | INFO  | com.spring.restfulapi.RestfulapiApplication | Starting RestfulapiApplication using Java 21.0.8 with PID 2307037 (/home/labuser/IdeaProjects/REST-API--SpringBoot--Basic/target/classes started by labuser in /home/labuser/IdeaProjects/REST-API--SpringBoot--Basic)
-2025-12-02 12:20:35 | INFO  | com.spring.restfulapi.RestfulapiApplication | No active profile set, falling back to 1 default profile: "default"
-2025-12-02 12:20:35 | INFO  | org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor | Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2025-12-02 12:20:35 | INFO  | org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor | For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2025-12-02 12:20:37 | INFO  | org.springframework.data.repository.config.RepositoryConfigurationDelegate | Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-12-02 12:20:37 | INFO  | org.springframework.data.repository.config.RepositoryConfigurationDelegate | Finished Spring Data repository scanning in 69 ms. Found 1 JPA repository interface.
-2025-12-02 12:20:39 | INFO  | org.springframework.boot.tomcat.TomcatWebServer | Tomcat initialized with port 9999 (http)
-2025-12-02 12:20:39 | INFO  | org.apache.catalina.core.StandardService | Starting service [Tomcat]
-2025-12-02 12:20:39 | INFO  | org.apache.catalina.core.StandardEngine | Starting Servlet engine: [Apache Tomcat/11.0.14]
-2025-12-02 12:20:39 | INFO  | org.springframework.boot.web.context.servlet.WebApplicationContextInitializer | Root WebApplicationContext: initialization completed in 4262 ms
-2025-12-02 12:20:40 | INFO  | org.hibernate.jpa.internal.util.LogHelper | HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-12-02 12:20:40 | INFO  | org.hibernate.Version | HHH000412: Hibernate ORM core version 7.1.8.Final
-2025-12-02 12:20:41 | INFO  | org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo | No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-12-02 12:20:41 | INFO  | com.zaxxer.hikari.HikariDataSource | HikariPool-1 - Starting...
-2025-12-02 12:20:42 | INFO  | com.zaxxer.hikari.pool.HikariPool | HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@79eb8120
-2025-12-02 12:20:42 | INFO  | com.zaxxer.hikari.HikariDataSource | HikariPool-1 - Start completed.
-2025-12-02 12:20:42 | INFO  | org.hibernate.orm.connections.pooling | HHH10001005: Database info:
+2025-12-03 03:54:23 | INFO  | com.spring.restfulapi.RestfulapiApplication | Starting RestfulapiApplication using Java 21.0.8 with PID 51850 (/home/labuser/IdeaProjects/REST-API--SpringBoot--Basic/target/classes started by labuser in /home/labuser/IdeaProjects/REST-API--SpringBoot--Basic)
+2025-12-03 03:54:23 | INFO  | com.spring.restfulapi.RestfulapiApplication | No active profile set, falling back to 1 default profile: "default"
+2025-12-03 03:54:23 | INFO  | org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor | Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-12-03 03:54:23 | INFO  | org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor | For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-12-03 03:54:28 | INFO  | org.springframework.data.repository.config.RepositoryConfigurationDelegate | Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-03 03:54:28 | INFO  | org.springframework.data.repository.config.RepositoryConfigurationDelegate | Finished Spring Data repository scanning in 286 ms. Found 1 JPA repository interface.
+2025-12-03 03:54:32 | INFO  | org.springframework.boot.tomcat.TomcatWebServer | Tomcat initialized with port 9999 (http)
+2025-12-03 03:54:32 | INFO  | org.apache.catalina.core.StandardService | Starting service [Tomcat]
+2025-12-03 03:54:32 | INFO  | org.apache.catalina.core.StandardEngine | Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-03 03:54:32 | INFO  | org.springframework.boot.web.context.servlet.WebApplicationContextInitializer | Root WebApplicationContext: initialization completed in 8932 ms
+2025-12-03 03:54:34 | INFO  | org.hibernate.jpa.internal.util.LogHelper | HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-03 03:54:35 | INFO  | org.hibernate.Version | HHH000412: Hibernate ORM core version 7.1.8.Final
+2025-12-03 03:54:39 | INFO  | org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo | No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-03 03:54:39 | INFO  | com.zaxxer.hikari.HikariDataSource | HikariPool-1 - Starting...
+2025-12-03 03:54:40 | INFO  | com.zaxxer.hikari.pool.HikariPool | HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1620e202
+2025-12-03 03:54:40 | INFO  | com.zaxxer.hikari.HikariDataSource | HikariPool-1 - Start completed.
+2025-12-03 03:54:41 | INFO  | org.hibernate.orm.connections.pooling | HHH10001005: Database info:
 	Database JDBC URL [jdbc:mysql://localhost:3306/Training]
 	Database driver: MySQL Connector/J
 	Database dialect: MySQLDialect
@@ -27,16 +27,437 @@
 	Pool: DatasourceConnectionProviderImpl
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-12-02 12:20:43 | INFO  | org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator | HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-12-02 12:20:44 | INFO  | org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean | Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-12-02 12:20:44 | INFO  | org.springframework.data.jpa.repository.query.QueryEnhancerFactories | Hibernate is in classpath; If applicable, HQL parser will be used.
-2025-12-02 12:20:45 | WARN  | org.springframework.boot.jpa.autoconfigure.JpaBaseConfiguration$JpaWebConfiguration | spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-12-02 12:20:46 | INFO  | org.springframework.boot.tomcat.TomcatWebServer | Tomcat started on port 9999 (http) with context path '/'
-2025-12-02 12:20:46 | INFO  | com.spring.restfulapi.RestfulapiApplication | Started RestfulapiApplication in 12.324 seconds (process running for 13.759)
-2025-12-02 12:21:13 | INFO  | org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] | Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-12-02 12:21:13 | INFO  | org.springframework.web.servlet.DispatcherServlet | Initializing Servlet 'dispatcherServlet'
-2025-12-02 12:21:13 | INFO  | org.springframework.web.servlet.DispatcherServlet | Completed initialization in 2 ms
-2025-12-02 12:21:13 | INFO  | com.spring.restfulapi.AOP.ResourceInterceptAspect | Before method invoked :: ResponseEntity com.spring.restfulapi.controller.LoanController.loanApplication(Loan)
-2025-12-02 12:21:13 | INFO  | com.spring.restfulapi.AOP.ResourceInterceptAspect | After method invoked :: ResponseEntity com.spring.restfulapi.controller.LoanController.loanApplication(Loan)
-2025-12-02 12:21:18 | INFO  | com.spring.restfulapi.AOP.ResourceInterceptAspect | Before method invoked :: ResponseEntity com.spring.restfulapi.controller.LoanController.getLoan(Long)
-2025-12-02 12:21:19 | INFO  | com.spring.restfulapi.AOP.ResourceInterceptAspect | After method invoked :: ResponseEntity com.spring.restfulapi.controller.LoanController.getLoan(Long)
+2025-12-03 03:54:46 | INFO  | org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator | HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-03 03:54:47 | INFO  | org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean | Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-03 03:54:48 | INFO  | org.springframework.data.jpa.repository.query.QueryEnhancerFactories | Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-12-03 03:54:49 | WARN  | org.springframework.boot.jpa.autoconfigure.JpaBaseConfiguration$JpaWebConfiguration | spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-03 03:54:51 | INFO  | org.springframework.boot.tomcat.TomcatWebServer | Tomcat started on port 9999 (http) with context path '/'
+2025-12-03 03:54:51 | INFO  | com.spring.restfulapi.RestfulapiApplication | Started RestfulapiApplication in 30.729 seconds (process running for 34.407)
+2025-12-03 03:56:46 | INFO  | org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] | Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-03 03:56:46 | INFO  | org.springframework.web.servlet.DispatcherServlet | Initializing Servlet 'dispatcherServlet'
+2025-12-03 03:56:46 | INFO  | org.springframework.web.servlet.DispatcherServlet | Completed initialization in 1 ms
+2025-12-03 03:56:46 | INFO  | com.spring.restfulapi.AOP.ResourceInterceptAspect | Before method invoked :: ResponseEntity com.spring.restfulapi.controller.LoanController.loanApplication(Loan)
+2025-12-03 03:56:47 | INFO  | com.spring.restfulapi.AOP.ResourceInterceptAspect | After method invoked :: ResponseEntity com.spring.restfulapi.controller.LoanController.loanApplication(Loan)
+2025-12-03 03:57:01 | INFO  | com.spring.restfulapi.AOP.ResourceInterceptAspect | Before method invoked :: ResponseEntity com.spring.restfulapi.controller.LoanController.getLoan(Long)
+2025-12-03 03:57:01 | INFO  | com.spring.restfulapi.AOP.ResourceInterceptAspect | After method invoked :: ResponseEntity com.spring.restfulapi.controller.LoanController.getLoan(Long)
+2025-12-03 03:57:01 | ERROR | org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] | Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.util.NoSuchElementException: No value present] with root causejava.util.NoSuchElementException: No value present
+	at java.base/java.util.Optional.get(Optional.java:143)
+	at com.spring.restfulapi.service.LoanService.getLoan(LoanService.java:26)
+	at com.spring.restfulapi.controller.LoanController.getLoan(LoanController.java:57)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:190)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:158)
+	at org.springframework.aop.aspectj.AspectJAfterAdvice.invoke(AspectJAfterAdvice.java:48)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:57)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:96)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:719)
+	at com.spring.restfulapi.controller.LoanController$$SpringCGLIB$$0.getLoan(<generated>)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:892)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1778)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+2025-12-03 03:57:11 | INFO  | com.spring.restfulapi.AOP.ResourceInterceptAspect | Before method invoked :: ResponseEntity com.spring.restfulapi.controller.LoanController.getLoan(Long)
+2025-12-03 03:57:11 | INFO  | com.spring.restfulapi.AOP.ResourceInterceptAspect | After method invoked :: ResponseEntity com.spring.restfulapi.controller.LoanController.getLoan(Long)
+2025-12-03 04:02:02 | INFO  | org.springframework.boot.tomcat.GracefulShutdown | Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-03 04:02:02 | INFO  | org.springframework.boot.tomcat.GracefulShutdown | Graceful shutdown complete
+2025-12-03 04:02:02 | INFO  | org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean | Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-03 04:02:02 | INFO  | com.zaxxer.hikari.HikariDataSource | HikariPool-1 - Shutdown initiated...
+2025-12-03 04:02:02 | INFO  | com.zaxxer.hikari.HikariDataSource | HikariPool-1 - Shutdown completed.
+2025-12-03 05:07:48 | INFO  | com.spring.restfulapi.RestfulapiApplication | Starting RestfulapiApplication using Java 21.0.8 with PID 370171 (/home/labuser/IdeaProjects/REST-API--SpringBoot--Basic/target/classes started by labuser in /home/labuser/IdeaProjects/REST-API--SpringBoot--Basic)
+2025-12-03 05:07:48 | INFO  | com.spring.restfulapi.RestfulapiApplication | No active profile set, falling back to 1 default profile: "default"
+2025-12-03 05:07:48 | INFO  | org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor | Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-12-03 05:07:48 | INFO  | org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor | For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-12-03 05:07:50 | INFO  | org.springframework.data.repository.config.RepositoryConfigurationDelegate | Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-03 05:07:50 | INFO  | org.springframework.data.repository.config.RepositoryConfigurationDelegate | Finished Spring Data repository scanning in 88 ms. Found 1 JPA repository interface.
+2025-12-03 05:07:51 | INFO  | org.springframework.boot.tomcat.TomcatWebServer | Tomcat initialized with port 9999 (http)
+2025-12-03 05:07:51 | INFO  | org.apache.catalina.core.StandardService | Starting service [Tomcat]
+2025-12-03 05:07:51 | INFO  | org.apache.catalina.core.StandardEngine | Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-03 05:07:51 | INFO  | org.springframework.boot.web.context.servlet.WebApplicationContextInitializer | Root WebApplicationContext: initialization completed in 3202 ms
+2025-12-03 05:07:52 | INFO  | org.hibernate.jpa.internal.util.LogHelper | HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-03 05:07:52 | INFO  | org.hibernate.Version | HHH000412: Hibernate ORM core version 7.1.8.Final
+2025-12-03 05:07:53 | INFO  | org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo | No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-03 05:07:53 | INFO  | com.zaxxer.hikari.HikariDataSource | HikariPool-1 - Starting...
+2025-12-03 05:07:54 | INFO  | com.zaxxer.hikari.pool.HikariPool | HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3429d25c
+2025-12-03 05:07:54 | INFO  | com.zaxxer.hikari.HikariDataSource | HikariPool-1 - Start completed.
+2025-12-03 05:07:54 | INFO  | org.hibernate.orm.connections.pooling | HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/Training]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.40
+	Default catalog/schema: Training/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DatasourceConnectionProviderImpl
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-12-03 05:07:55 | INFO  | org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator | HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-03 05:07:56 | INFO  | org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean | Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-03 05:07:56 | INFO  | org.springframework.data.jpa.repository.query.QueryEnhancerFactories | Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-12-03 05:07:56 | WARN  | org.springframework.boot.jpa.autoconfigure.JpaBaseConfiguration$JpaWebConfiguration | spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-03 05:07:57 | INFO  | org.springframework.boot.tomcat.TomcatWebServer | Tomcat started on port 9999 (http) with context path '/'
+2025-12-03 05:07:57 | INFO  | com.spring.restfulapi.RestfulapiApplication | Started RestfulapiApplication in 10.137 seconds (process running for 11.635)
+2025-12-03 05:08:08 | INFO  | org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] | Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-03 05:08:08 | INFO  | org.springframework.web.servlet.DispatcherServlet | Initializing Servlet 'dispatcherServlet'
+2025-12-03 05:08:08 | INFO  | org.springframework.web.servlet.DispatcherServlet | Completed initialization in 2 ms
+2025-12-03 05:27:46 | INFO  | org.springframework.boot.tomcat.GracefulShutdown | Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-03 05:27:46 | INFO  | org.springframework.boot.tomcat.GracefulShutdown | Graceful shutdown complete
+2025-12-03 05:27:46 | INFO  | org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean | Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-03 05:27:46 | INFO  | com.zaxxer.hikari.HikariDataSource | HikariPool-1 - Shutdown initiated...
+2025-12-03 05:27:46 | INFO  | com.zaxxer.hikari.HikariDataSource | HikariPool-1 - Shutdown completed.
+2025-12-03 05:27:53 | INFO  | com.spring.restfulapi.RestfulapiApplication | Starting RestfulapiApplication using Java 21.0.8 with PID 460148 (/home/labuser/IdeaProjects/REST-API--SpringBoot--Basic/target/classes started by labuser in /home/labuser/IdeaProjects/REST-API--SpringBoot--Basic)
+2025-12-03 05:27:53 | INFO  | com.spring.restfulapi.RestfulapiApplication | No active profile set, falling back to 1 default profile: "default"
+2025-12-03 05:27:53 | INFO  | org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor | Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-12-03 05:27:53 | INFO  | org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor | For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-12-03 05:27:55 | INFO  | org.springframework.data.repository.config.RepositoryConfigurationDelegate | Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-03 05:27:55 | INFO  | org.springframework.data.repository.config.RepositoryConfigurationDelegate | Finished Spring Data repository scanning in 123 ms. Found 1 JPA repository interface.
+2025-12-03 05:27:56 | INFO  | org.springframework.boot.tomcat.TomcatWebServer | Tomcat initialized with port 9999 (http)
+2025-12-03 05:27:56 | INFO  | org.apache.catalina.core.StandardService | Starting service [Tomcat]
+2025-12-03 05:27:56 | INFO  | org.apache.catalina.core.StandardEngine | Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-03 05:27:56 | INFO  | org.springframework.boot.web.context.servlet.WebApplicationContextInitializer | Root WebApplicationContext: initialization completed in 3508 ms
+2025-12-03 05:27:57 | INFO  | org.hibernate.jpa.internal.util.LogHelper | HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-03 05:27:57 | INFO  | org.hibernate.Version | HHH000412: Hibernate ORM core version 7.1.8.Final
+2025-12-03 05:27:58 | INFO  | org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo | No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-03 05:27:58 | INFO  | com.zaxxer.hikari.HikariDataSource | HikariPool-1 - Starting...
+2025-12-03 05:27:58 | INFO  | com.zaxxer.hikari.pool.HikariPool | HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4e3cf0c2
+2025-12-03 05:27:58 | INFO  | com.zaxxer.hikari.HikariDataSource | HikariPool-1 - Start completed.
+2025-12-03 05:27:59 | INFO  | org.hibernate.orm.connections.pooling | HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/Training]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.40
+	Default catalog/schema: Training/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DatasourceConnectionProviderImpl
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-12-03 05:28:00 | INFO  | org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator | HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-03 05:28:01 | INFO  | org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean | Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-03 05:28:01 | INFO  | org.springframework.data.jpa.repository.query.QueryEnhancerFactories | Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-12-03 05:28:01 | WARN  | org.springframework.boot.jpa.autoconfigure.JpaBaseConfiguration$JpaWebConfiguration | spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-03 05:28:02 | INFO  | org.springframework.boot.tomcat.TomcatWebServer | Tomcat started on port 9999 (http) with context path '/'
+2025-12-03 05:28:02 | INFO  | com.spring.restfulapi.RestfulapiApplication | Started RestfulapiApplication in 10.432 seconds (process running for 11.814)
+2025-12-03 05:28:30 | INFO  | org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] | Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-03 05:28:30 | INFO  | org.springframework.web.servlet.DispatcherServlet | Initializing Servlet 'dispatcherServlet'
+2025-12-03 05:28:30 | INFO  | org.springframework.web.servlet.DispatcherServlet | Completed initialization in 3 ms
+2025-12-03 05:35:07 | INFO  | org.springframework.boot.tomcat.GracefulShutdown | Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-03 05:35:07 | INFO  | org.springframework.boot.tomcat.GracefulShutdown | Graceful shutdown complete
+2025-12-03 05:35:07 | INFO  | org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean | Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-03 05:35:07 | INFO  | com.zaxxer.hikari.HikariDataSource | HikariPool-1 - Shutdown initiated...
+2025-12-03 05:35:07 | INFO  | com.zaxxer.hikari.HikariDataSource | HikariPool-1 - Shutdown completed.
+2025-12-03 05:35:14 | INFO  | com.spring.restfulapi.RestfulapiApplication | Starting RestfulapiApplication using Java 21.0.8 with PID 492310 (/home/labuser/IdeaProjects/REST-API--SpringBoot--Basic/target/classes started by labuser in /home/labuser/IdeaProjects/REST-API--SpringBoot--Basic)
+2025-12-03 05:35:14 | INFO  | com.spring.restfulapi.RestfulapiApplication | No active profile set, falling back to 1 default profile: "default"
+2025-12-03 05:35:15 | INFO  | org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor | Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-12-03 05:35:15 | INFO  | org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor | For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-12-03 05:35:16 | INFO  | org.springframework.data.repository.config.RepositoryConfigurationDelegate | Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-03 05:35:16 | INFO  | org.springframework.data.repository.config.RepositoryConfigurationDelegate | Finished Spring Data repository scanning in 127 ms. Found 1 JPA repository interface.
+2025-12-03 05:35:18 | INFO  | org.springframework.boot.tomcat.TomcatWebServer | Tomcat initialized with port 9999 (http)
+2025-12-03 05:35:18 | INFO  | org.apache.catalina.core.StandardService | Starting service [Tomcat]
+2025-12-03 05:35:18 | INFO  | org.apache.catalina.core.StandardEngine | Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-03 05:35:18 | INFO  | org.springframework.boot.web.context.servlet.WebApplicationContextInitializer | Root WebApplicationContext: initialization completed in 3272 ms
+2025-12-03 05:35:18 | INFO  | org.hibernate.jpa.internal.util.LogHelper | HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-03 05:35:18 | INFO  | org.hibernate.Version | HHH000412: Hibernate ORM core version 7.1.8.Final
+2025-12-03 05:35:19 | INFO  | org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo | No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-03 05:35:19 | INFO  | com.zaxxer.hikari.HikariDataSource | HikariPool-1 - Starting...
+2025-12-03 05:35:20 | INFO  | com.zaxxer.hikari.pool.HikariPool | HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@53dc9d1e
+2025-12-03 05:35:20 | INFO  | com.zaxxer.hikari.HikariDataSource | HikariPool-1 - Start completed.
+2025-12-03 05:35:20 | INFO  | org.hibernate.orm.connections.pooling | HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/Training]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.40
+	Default catalog/schema: Training/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DatasourceConnectionProviderImpl
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-12-03 05:35:21 | INFO  | org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator | HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-03 05:35:22 | INFO  | org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean | Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-03 05:35:22 | INFO  | org.springframework.data.jpa.repository.query.QueryEnhancerFactories | Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-12-03 05:35:22 | WARN  | org.springframework.boot.jpa.autoconfigure.JpaBaseConfiguration$JpaWebConfiguration | spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-03 05:35:23 | INFO  | org.springframework.boot.tomcat.TomcatWebServer | Tomcat started on port 9999 (http) with context path '/'
+2025-12-03 05:35:23 | INFO  | com.spring.restfulapi.RestfulapiApplication | Started RestfulapiApplication in 10.207 seconds (process running for 11.407)
+2025-12-03 05:35:40 | INFO  | org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] | Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-03 05:35:40 | INFO  | org.springframework.web.servlet.DispatcherServlet | Initializing Servlet 'dispatcherServlet'
+2025-12-03 05:35:40 | INFO  | org.springframework.web.servlet.DispatcherServlet | Completed initialization in 3 ms
+2025-12-03 05:36:51 | INFO  | org.springframework.boot.tomcat.GracefulShutdown | Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-03 05:36:51 | INFO  | org.springframework.boot.tomcat.GracefulShutdown | Graceful shutdown complete
+2025-12-03 05:36:51 | INFO  | org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean | Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-03 05:36:51 | INFO  | com.zaxxer.hikari.HikariDataSource | HikariPool-1 - Shutdown initiated...
+2025-12-03 05:36:51 | INFO  | com.zaxxer.hikari.HikariDataSource | HikariPool-1 - Shutdown completed.
+2025-12-03 05:36:58 | INFO  | com.spring.restfulapi.RestfulapiApplication | Starting RestfulapiApplication using Java 21.0.8 with PID 499381 (/home/labuser/IdeaProjects/REST-API--SpringBoot--Basic/target/classes started by labuser in /home/labuser/IdeaProjects/REST-API--SpringBoot--Basic)
+2025-12-03 05:36:58 | INFO  | com.spring.restfulapi.RestfulapiApplication | No active profile set, falling back to 1 default profile: "default"
+2025-12-03 05:36:58 | INFO  | org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor | Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-12-03 05:36:58 | INFO  | org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor | For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-12-03 05:37:00 | INFO  | org.springframework.data.repository.config.RepositoryConfigurationDelegate | Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-03 05:37:00 | INFO  | org.springframework.data.repository.config.RepositoryConfigurationDelegate | Finished Spring Data repository scanning in 71 ms. Found 1 JPA repository interface.
+2025-12-03 05:37:01 | INFO  | org.springframework.boot.tomcat.TomcatWebServer | Tomcat initialized with port 9999 (http)
+2025-12-03 05:37:01 | INFO  | org.apache.catalina.core.StandardService | Starting service [Tomcat]
+2025-12-03 05:37:01 | INFO  | org.apache.catalina.core.StandardEngine | Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-03 05:37:01 | INFO  | org.springframework.boot.web.context.servlet.WebApplicationContextInitializer | Root WebApplicationContext: initialization completed in 3066 ms
+2025-12-03 05:37:02 | INFO  | org.hibernate.jpa.internal.util.LogHelper | HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-03 05:37:02 | INFO  | org.hibernate.Version | HHH000412: Hibernate ORM core version 7.1.8.Final
+2025-12-03 05:37:03 | INFO  | org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo | No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-03 05:37:03 | INFO  | com.zaxxer.hikari.HikariDataSource | HikariPool-1 - Starting...
+2025-12-03 05:37:04 | INFO  | com.zaxxer.hikari.pool.HikariPool | HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3a25899b
+2025-12-03 05:37:04 | INFO  | com.zaxxer.hikari.HikariDataSource | HikariPool-1 - Start completed.
+2025-12-03 05:37:04 | INFO  | org.hibernate.orm.connections.pooling | HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/Training]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.40
+	Default catalog/schema: Training/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DatasourceConnectionProviderImpl
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-12-03 05:37:05 | INFO  | org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator | HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-03 05:37:06 | INFO  | org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean | Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-03 05:37:06 | INFO  | org.springframework.data.jpa.repository.query.QueryEnhancerFactories | Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-12-03 05:37:06 | WARN  | org.springframework.boot.jpa.autoconfigure.JpaBaseConfiguration$JpaWebConfiguration | spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-03 05:37:07 | INFO  | org.springframework.boot.tomcat.TomcatWebServer | Tomcat started on port 9999 (http) with context path '/'
+2025-12-03 05:37:07 | INFO  | com.spring.restfulapi.RestfulapiApplication | Started RestfulapiApplication in 10.208 seconds (process running for 11.269)
+2025-12-03 05:37:18 | INFO  | org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] | Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-03 05:37:18 | INFO  | org.springframework.web.servlet.DispatcherServlet | Initializing Servlet 'dispatcherServlet'
+2025-12-03 05:37:18 | INFO  | org.springframework.web.servlet.DispatcherServlet | Completed initialization in 2 ms
+2025-12-03 05:37:43 | INFO  | org.springframework.boot.tomcat.GracefulShutdown | Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-03 05:37:43 | INFO  | org.springframework.boot.tomcat.GracefulShutdown | Graceful shutdown complete
+2025-12-03 05:37:43 | INFO  | org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean | Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-03 05:37:43 | INFO  | com.zaxxer.hikari.HikariDataSource | HikariPool-1 - Shutdown initiated...
+2025-12-03 05:37:43 | INFO  | com.zaxxer.hikari.HikariDataSource | HikariPool-1 - Shutdown completed.
+2025-12-03 05:37:50 | INFO  | com.spring.restfulapi.RestfulapiApplication | Starting RestfulapiApplication using Java 21.0.8 with PID 502715 (/home/labuser/IdeaProjects/REST-API--SpringBoot--Basic/target/classes started by labuser in /home/labuser/IdeaProjects/REST-API--SpringBoot--Basic)
+2025-12-03 05:37:50 | INFO  | com.spring.restfulapi.RestfulapiApplication | No active profile set, falling back to 1 default profile: "default"
+2025-12-03 05:37:50 | INFO  | org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor | Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-12-03 05:37:50 | INFO  | org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor | For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-12-03 05:37:52 | INFO  | org.springframework.data.repository.config.RepositoryConfigurationDelegate | Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-03 05:37:52 | INFO  | org.springframework.data.repository.config.RepositoryConfigurationDelegate | Finished Spring Data repository scanning in 67 ms. Found 1 JPA repository interface.
+2025-12-03 05:37:53 | INFO  | org.springframework.boot.tomcat.TomcatWebServer | Tomcat initialized with port 9999 (http)
+2025-12-03 05:37:53 | INFO  | org.apache.catalina.core.StandardService | Starting service [Tomcat]
+2025-12-03 05:37:53 | INFO  | org.apache.catalina.core.StandardEngine | Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-03 05:37:53 | INFO  | org.springframework.boot.web.context.servlet.WebApplicationContextInitializer | Root WebApplicationContext: initialization completed in 3228 ms
+2025-12-03 05:37:54 | INFO  | org.hibernate.jpa.internal.util.LogHelper | HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-03 05:37:54 | INFO  | org.hibernate.Version | HHH000412: Hibernate ORM core version 7.1.8.Final
+2025-12-03 05:37:55 | INFO  | org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo | No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-03 05:37:55 | INFO  | com.zaxxer.hikari.HikariDataSource | HikariPool-1 - Starting...
+2025-12-03 05:37:56 | INFO  | com.zaxxer.hikari.pool.HikariPool | HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@45ec2294
+2025-12-03 05:37:56 | INFO  | com.zaxxer.hikari.HikariDataSource | HikariPool-1 - Start completed.
+2025-12-03 05:37:56 | INFO  | org.hibernate.orm.connections.pooling | HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/Training]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.40
+	Default catalog/schema: Training/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DatasourceConnectionProviderImpl
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-12-03 05:37:57 | INFO  | org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator | HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-03 05:37:58 | INFO  | org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean | Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-03 05:37:58 | INFO  | org.springframework.data.jpa.repository.query.QueryEnhancerFactories | Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-12-03 05:37:58 | WARN  | org.springframework.boot.jpa.autoconfigure.JpaBaseConfiguration$JpaWebConfiguration | spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-03 05:37:59 | INFO  | org.springframework.boot.tomcat.TomcatWebServer | Tomcat started on port 9999 (http) with context path '/'
+2025-12-03 05:37:59 | INFO  | com.spring.restfulapi.RestfulapiApplication | Started RestfulapiApplication in 10.516 seconds (process running for 11.722)
+2025-12-03 05:38:06 | INFO  | org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] | Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-03 05:38:06 | INFO  | org.springframework.web.servlet.DispatcherServlet | Initializing Servlet 'dispatcherServlet'
+2025-12-03 05:38:06 | INFO  | org.springframework.web.servlet.DispatcherServlet | Completed initialization in 2 ms
+2025-12-03 05:40:04 | INFO  | org.springframework.boot.tomcat.GracefulShutdown | Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-03 05:40:04 | INFO  | org.springframework.boot.tomcat.GracefulShutdown | Graceful shutdown complete
+2025-12-03 05:40:04 | INFO  | org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean | Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-03 05:40:04 | INFO  | com.zaxxer.hikari.HikariDataSource | HikariPool-1 - Shutdown initiated...
+2025-12-03 05:40:04 | INFO  | com.zaxxer.hikari.HikariDataSource | HikariPool-1 - Shutdown completed.
+2025-12-03 05:40:11 | INFO  | com.spring.restfulapi.RestfulapiApplication | Starting RestfulapiApplication using Java 21.0.8 with PID 512644 (/home/labuser/IdeaProjects/REST-API--SpringBoot--Basic/target/classes started by labuser in /home/labuser/IdeaProjects/REST-API--SpringBoot--Basic)
+2025-12-03 05:40:11 | INFO  | com.spring.restfulapi.RestfulapiApplication | No active profile set, falling back to 1 default profile: "default"
+2025-12-03 05:40:11 | INFO  | org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor | Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-12-03 05:40:11 | INFO  | org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor | For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-12-03 05:40:13 | INFO  | org.springframework.data.repository.config.RepositoryConfigurationDelegate | Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-03 05:40:13 | INFO  | org.springframework.data.repository.config.RepositoryConfigurationDelegate | Finished Spring Data repository scanning in 116 ms. Found 1 JPA repository interface.
+2025-12-03 05:40:15 | INFO  | org.springframework.boot.tomcat.TomcatWebServer | Tomcat initialized with port 9999 (http)
+2025-12-03 05:40:15 | INFO  | org.apache.catalina.core.StandardService | Starting service [Tomcat]
+2025-12-03 05:40:15 | INFO  | org.apache.catalina.core.StandardEngine | Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-03 05:40:15 | INFO  | org.springframework.boot.web.context.servlet.WebApplicationContextInitializer | Root WebApplicationContext: initialization completed in 3611 ms
+2025-12-03 05:40:15 | INFO  | org.hibernate.jpa.internal.util.LogHelper | HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-03 05:40:15 | INFO  | org.hibernate.Version | HHH000412: Hibernate ORM core version 7.1.8.Final
+2025-12-03 05:40:16 | INFO  | org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo | No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-03 05:40:16 | INFO  | com.zaxxer.hikari.HikariDataSource | HikariPool-1 - Starting...
+2025-12-03 05:40:17 | INFO  | com.zaxxer.hikari.pool.HikariPool | HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@105e061a
+2025-12-03 05:40:17 | INFO  | com.zaxxer.hikari.HikariDataSource | HikariPool-1 - Start completed.
+2025-12-03 05:40:17 | INFO  | org.hibernate.orm.connections.pooling | HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/Training]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.40
+	Default catalog/schema: Training/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DatasourceConnectionProviderImpl
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-12-03 05:40:18 | INFO  | org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator | HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-03 05:40:19 | INFO  | org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean | Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-03 05:40:19 | INFO  | org.springframework.data.jpa.repository.query.QueryEnhancerFactories | Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-12-03 05:40:19 | WARN  | org.springframework.boot.jpa.autoconfigure.JpaBaseConfiguration$JpaWebConfiguration | spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-03 05:40:20 | INFO  | org.springframework.boot.tomcat.TomcatWebServer | Tomcat started on port 9999 (http) with context path '/'
+2025-12-03 05:40:20 | INFO  | com.spring.restfulapi.RestfulapiApplication | Started RestfulapiApplication in 10.932 seconds (process running for 12.13)
+2025-12-03 05:40:32 | INFO  | org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] | Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-03 05:40:32 | INFO  | org.springframework.web.servlet.DispatcherServlet | Initializing Servlet 'dispatcherServlet'
+2025-12-03 05:40:32 | INFO  | org.springframework.web.servlet.DispatcherServlet | Completed initialization in 2 ms
+2025-12-03 05:40:33 | INFO  | com.spring.restfulapi.AOP.ResourceInterceptorAspect5 | Before method invoked :: ResponseEntity com.spring.restfulapi.controller.LoanController.loanApplication(Loan)
+2025-12-03 05:40:36 | INFO  | com.spring.restfulapi.AOP.ResourceInterceptorAspect5 | Before method invoked :: ResponseEntity com.spring.restfulapi.controller.LoanController.getLoan(Long)
+2025-12-03 05:40:55 | INFO  | org.springframework.boot.tomcat.GracefulShutdown | Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-03 05:40:55 | INFO  | org.springframework.boot.tomcat.GracefulShutdown | Graceful shutdown complete
+2025-12-03 05:40:55 | INFO  | org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean | Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-03 05:40:55 | INFO  | com.zaxxer.hikari.HikariDataSource | HikariPool-1 - Shutdown initiated...
+2025-12-03 05:40:55 | INFO  | com.zaxxer.hikari.HikariDataSource | HikariPool-1 - Shutdown completed.
+2025-12-03 05:41:02 | INFO  | com.spring.restfulapi.RestfulapiApplication | Starting RestfulapiApplication using Java 21.0.8 with PID 515954 (/home/labuser/IdeaProjects/REST-API--SpringBoot--Basic/target/classes started by labuser in /home/labuser/IdeaProjects/REST-API--SpringBoot--Basic)
+2025-12-03 05:41:02 | INFO  | com.spring.restfulapi.RestfulapiApplication | No active profile set, falling back to 1 default profile: "default"
+2025-12-03 05:41:03 | INFO  | org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor | Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-12-03 05:41:03 | INFO  | org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor | For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-12-03 05:41:04 | INFO  | org.springframework.data.repository.config.RepositoryConfigurationDelegate | Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-03 05:41:04 | INFO  | org.springframework.data.repository.config.RepositoryConfigurationDelegate | Finished Spring Data repository scanning in 132 ms. Found 1 JPA repository interface.
+2025-12-03 05:41:06 | INFO  | org.springframework.boot.tomcat.TomcatWebServer | Tomcat initialized with port 9999 (http)
+2025-12-03 05:41:06 | INFO  | org.apache.catalina.core.StandardService | Starting service [Tomcat]
+2025-12-03 05:41:06 | INFO  | org.apache.catalina.core.StandardEngine | Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-03 05:41:06 | INFO  | org.springframework.boot.web.context.servlet.WebApplicationContextInitializer | Root WebApplicationContext: initialization completed in 3495 ms
+2025-12-03 05:41:07 | INFO  | org.hibernate.jpa.internal.util.LogHelper | HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-03 05:41:07 | INFO  | org.hibernate.Version | HHH000412: Hibernate ORM core version 7.1.8.Final
+2025-12-03 05:41:07 | INFO  | org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo | No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-03 05:41:07 | INFO  | com.zaxxer.hikari.HikariDataSource | HikariPool-1 - Starting...
+2025-12-03 05:41:08 | INFO  | com.zaxxer.hikari.pool.HikariPool | HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@26db4eb1
+2025-12-03 05:41:08 | INFO  | com.zaxxer.hikari.HikariDataSource | HikariPool-1 - Start completed.
+2025-12-03 05:41:08 | INFO  | org.hibernate.orm.connections.pooling | HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/Training]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.40
+	Default catalog/schema: Training/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DatasourceConnectionProviderImpl
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-12-03 05:41:10 | INFO  | org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator | HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-03 05:41:11 | INFO  | org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean | Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-03 05:41:11 | INFO  | org.springframework.data.jpa.repository.query.QueryEnhancerFactories | Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-12-03 05:41:11 | WARN  | org.springframework.boot.jpa.autoconfigure.JpaBaseConfiguration$JpaWebConfiguration | spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-03 05:41:12 | INFO  | org.springframework.boot.tomcat.TomcatWebServer | Tomcat started on port 9999 (http) with context path '/'
+2025-12-03 05:41:12 | INFO  | com.spring.restfulapi.RestfulapiApplication | Started RestfulapiApplication in 11.154 seconds (process running for 12.44)
+2025-12-03 05:41:21 | INFO  | org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] | Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-03 05:41:21 | INFO  | org.springframework.web.servlet.DispatcherServlet | Initializing Servlet 'dispatcherServlet'
+2025-12-03 05:41:21 | INFO  | org.springframework.web.servlet.DispatcherServlet | Completed initialization in 5 ms
+2025-12-03 05:41:22 | INFO  | com.spring.restfulapi.AOP.ResourceInterceptorAspect5 | Before method invoked :: ResponseEntity com.spring.restfulapi.controller.LoanController.loanApplication(Loan)
+2025-12-03 05:41:22 | INFO  | com.spring.restfulapi.AOP.ResourceInterceptorAspect5 | Before method invoked :: Loan{loanId=0, borrowerName='Hanna and Banna', dateBorrowed='2025-11-26', amount=70000.0, tenure=1, balanceEMI=17, loanStatus=false}
+2025-12-03 05:41:23 | INFO  | com.spring.restfulapi.AOP.ResourceInterceptorAspect5 | After method invoked :: Loan{loanId=1, borrowerName='Hanna and Banna', dateBorrowed='2025-11-26', amount=70000.0, tenure=1, balanceEMI=17, loanStatus=false}
+2025-12-03 05:41:25 | INFO  | com.spring.restfulapi.AOP.ResourceInterceptorAspect5 | Before method invoked :: ResponseEntity com.spring.restfulapi.controller.LoanController.getLoan(Long)
+2025-12-03 05:41:25 | INFO  | com.spring.restfulapi.AOP.ResourceInterceptorAspect5 | Before method invoked :: 1
+2025-12-03 05:41:26 | INFO  | com.spring.restfulapi.AOP.ResourceInterceptorAspect5 | After method invoked :: 1
+2025-12-03 05:41:29 | INFO  | com.spring.restfulapi.AOP.ResourceInterceptorAspect5 | Before method invoked :: List com.spring.restfulapi.controller.LoanController.getLoans()
+2025-12-03 05:41:29 | ERROR | org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] | Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0] with root causejava.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at com.spring.restfulapi.AOP.ResourceInterceptorAspect5.around(ResourceInterceptorAspect5.java:27)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:648)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:630)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:70)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:168)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:96)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:719)
+	at com.spring.restfulapi.controller.LoanController$$SpringCGLIB$$0.getLoans(<generated>)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:892)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1778)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+	at java.base/java.lang.Thread.run(Thread.java:1583)

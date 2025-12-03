@@ -11,13 +11,13 @@ import org.springframework.stereotype.Component;
 
 
 
-@Aspect
+//@Aspect
 @Component
 @Slf4j         // lombok annotation for logging
 public class ResourceInterceptAspect {
 
 
-    @Pointcut("execution(  * com.spring.restfulapi.controller .*.*(..))")
+    @Pointcut("execution(  * com.spring.restfulapi.controller.*.*(..))")
     public void loggingPointCut() { }
 
 
