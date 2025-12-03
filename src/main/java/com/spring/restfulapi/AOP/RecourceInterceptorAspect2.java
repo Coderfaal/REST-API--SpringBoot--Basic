@@ -11,7 +11,8 @@ import org.springframework.stereotype.Component;
 //@Aspect
 @Component
 @Slf4j
-//test only get methods with exceptions , get method returns only one object , test the sam emethod for exception
+//test only get methods with exceptions ,
+// get method returns only one object , test the sam emethod for exception
 public class RecourceInterceptorAspect2 {
 
     @AfterReturning(value="execution( *com.spring.restfulapi.controller.*.*(..))"
@@ -24,7 +25,7 @@ public class RecourceInterceptorAspect2 {
     }
 
     @AfterThrowing
-            (value="execution( * com.tcs.rest.resources .*.*(..))",throwing= "e")
+            (value="execution( *com.spring.restfulapi.controller.*.*(..))",throwing= "e")
     public void afterThrow(JoinPoint joinPoint, Exception e) {
 
         log.info("After method invoked :: "+e);

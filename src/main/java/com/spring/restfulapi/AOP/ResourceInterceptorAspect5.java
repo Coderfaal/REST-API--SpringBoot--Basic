@@ -24,13 +24,13 @@ public class ResourceInterceptorAspect5 {
             throws Throwable {
 
         log.info("Before method invoked :: "+ joinPoint.getSignature());
-        log.info("Before method invoked :: "+ joinPoint.getArgs()[0]);
+       // log.info("Before method invoked :: "+ joinPoint.getArgs()[0]);
 
         Object object = joinPoint.proceed();
 
         if(object instanceof Loan) log.info("After method invoked.... "+
                 joinPoint.getSignature());
-        log.info("After method invoked :: "+ joinPoint.getArgs()[0]);
+        //log.info("After method invoked :: "+ joinPoint.getArgs()[0]);
         return object;
 
     }
