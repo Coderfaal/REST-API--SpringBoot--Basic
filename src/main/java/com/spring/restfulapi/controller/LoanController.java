@@ -54,27 +54,37 @@ public class LoanController {
 
     /// //http://localhost:45587/loan/api/v1.0/fetch/1
 
-    @GetMapping("/fetch/{lId}")
-    public ResponseEntity<Loan> getLoan(@PathVariable Long lId) {
-
-        //return service.getLoan(lId);
-        //return new ResponseEntity<>(HttpStatus.BAD_REQUEST);
-        //return ResponseEntity.status(400).body(null);
-
-//        if(false){
-//            return  new ResponseEntity<>(service.getLoan(lId),HttpStatus.OK);}
-//        else {
-//            throw new IllegalArgumentException("Invalid loan id" + lId);
+//    @GetMapping("/fetch/{lId}")
+//    public ResponseEntity<Loan> getLoan(@PathVariable Long lId) {
 //
-//        }
-        if (lId == 0)
-            throw new InvalidValueException("Invalid Loand Id");
-           // return service.getLoan(lId);
-        return ResponseEntity.status(400).body(null);
+//        //return service.getLoan(lId);
+//        //return new ResponseEntity<>(HttpStatus.BAD_REQUEST);
+//        //return ResponseEntity.status(400).body(null);
+//
+////        if(false){
+////            return  new ResponseEntity<>(service.getLoan(lId),HttpStatus.OK);}
+////        else {
+////            throw new IllegalArgumentException("Invalid loan id" + lId);
+////
+////        }
+//        if (lId == 0)
+//            throw new InvalidValueException("Invalid Loand Id");
+//           // return service.getLoan(lId);
+//        return ResponseEntity.status(400).body(null);
+//
+//
+//    }
 
+//check other commented getmapping
+@GetMapping("/fetchById/{lId}")
+// public ResponseEntity<Loan> getLoanById(@PathVariable Long lId ){
+public Loan getLoanById(@PathVariable Long lId ){
 
-    }
-
+    return  service.getLoan(lId);
+    //do it when id is not found
+    //return  new ResponseEntity<>(HttpStatus.BAD_REQUEST);
+    // return ResponseEntity.badRequest().build();
+}
     @GetMapping("/all")
     public List<Loan> getLoans() {
         return service.getLoans();
