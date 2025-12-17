@@ -17,6 +17,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("loan/api/v1.0")
+@CrossOrigin(origins = "http://localhost:40721/")
 public class LoanController {
 
 
@@ -76,7 +77,7 @@ public class LoanController {
 //    }
 
 //check other commented getmapping
-@GetMapping("/fetchById/{lId}")
+@GetMapping("/fetch/{lId}")
 // public ResponseEntity<Loan> getLoanById(@PathVariable Long lId ){
 public Loan getLoanById(@PathVariable Long lId ){
 
