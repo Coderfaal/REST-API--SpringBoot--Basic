@@ -1,0 +1,193 @@
+{
+	"info": {
+		"_postman_id": "0fdb0b80-a79e-43cb-a778-b6c5682a23b3",
+		"name": "LOAN APPLICATION",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "creating",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\n\t\"borrowerName\": \"  Benny\",\n\t\"dateBorrowed\":\"2025-11-26\",\n\t \"tenure\": \"3\",\n\t \"balanceEMI\": \"17\",\n\t \"loanStatus\":\"true\",\n\t \"amount\":\"700000\"\n\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9999/loan/api/v1.0/create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9999",
+					"path": [
+						"loan",
+						"api",
+						"v1.0",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "fetching with ids",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9999/loan/api/v1.0/fetch/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9999",
+					"path": [
+						"loan",
+						"api",
+						"v1.0",
+						"fetch",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "fetch all",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9999/loan/api/v1.0/all",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9999",
+					"path": [
+						"loan",
+						"api",
+						"v1.0",
+						"all"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "modify",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\n\t\"borrowerName\": \"Jisoo\",\n\t\"dateBorrowed\":\"2025-11-25\",\n\t \"tenure\": \"1\",\n\t \"balanceEMI\": \"12\",\n\t \"loanStatus\":\"true\",\n\t \"amount\":\"7500000\"\n\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:36231/loan/api/v1.0/modify",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "36231",
+					"path": [
+						"loan",
+						"api",
+						"v1.0",
+						"modify"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "modify2",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\n\t\"borrowerName\": \"Jisoo\",\n\t\"dateBorrowed\":\"2025-11-25\",\n\t \"tenure\": \"1\",\n\t \"balanceEMI\": \"24\",\n\t \"loanStatus\":\"false\",\n\t \"amount\":\"7500000\"\n\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:36231/loan/api/v1.0/modify2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "36231",
+					"path": [
+						"loan",
+						"api",
+						"v1.0",
+						"modify2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:36231/loan/api/v1.0/remove/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "36231",
+					"path": [
+						"loan",
+						"api",
+						"v1.0",
+						"remove",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "with client",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9998/client/loan/api/v1.0/all",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9998",
+					"path": [
+						"client",
+						"loan",
+						"api",
+						"v1.0",
+						"all"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
